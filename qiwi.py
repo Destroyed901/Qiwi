@@ -7,7 +7,7 @@ from SimpleQIWI import *
 import sys
 from Qiwi2 import QiwiApi
 import webbrowser as wb
-webbrowser.open('https://t.me/eniac_tg', new=0)
+wb.open("https://t.me/eniac_tg")
 
 banner = colored("""
 
