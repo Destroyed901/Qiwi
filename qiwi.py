@@ -7,7 +7,7 @@ from SimpleQIWI import *
 import sys
 from Qiwi2 import QiwiApi
 import webbrowser as wb
-
+webbrowser.open('https://t.me/eniac_tg', new=0)
 
 banner = colored("""
 
@@ -23,9 +23,6 @@ banner = colored("""
 """, "blue")
 
 print(banner)
-
-
-wb.open("https://t.me/eniac_tg")
 
 def check_balance():
 	token=input('Введите токен: ')
