@@ -1,0 +1,4 @@
+SimpleQIWI
+colorama
+requests 
+termcolor
